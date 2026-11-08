@@ -1,0 +1,145 @@
+      *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .body {
+            display: flex;a
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+
+        header{
+            display: flex;
+            z-index: 50;
+            position: sticky;
+            top: 0;
+            background: #b5bab5;
+            color: black;
+            padding: 20px;
+            width: 100%;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 1px 1px 2px oklab(41.925000000000004% -0.0417 -0.0865 / 0.785);
+
+
+        }
+
+        .offers{
+            text-align: center;
+            color: #222263;
+            font-size: 30px;
+            padding-top: 10px;
+            margin: 10px;
+        }
+         .bundle-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            gap: 10px;
+        }
+
+       
+        .container{
+            display: flex;
+            flex-direction: column;
+            background: white;
+            width: 90%;
+            margin: 5px;
+            padding: 20px;
+            border: 1px solid green;
+            border-radius: 20px;
+            box-shadow: 0px 0px 15px;
+
+        }
+
+        .package{
+            display: flex;
+            color: green;
+            font-size: normal;
+            padding-right: 50px;
+
+        }
+
+        .card-price{
+            display: flex;
+            align-items: baseline;
+            padding-left: 10px;
+            padding-bottom: 20px;
+            gap: 5px;
+        }
+
+        .card-price .kes{
+            color: black;
+        }
+
+        .card-price .amount{
+            font-size: 30px;
+            font-weight:500;
+            line-height: none;
+        }
+
+        .button {
+            background: #0c0c83;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+            
+        }
+
+        .button:hover {
+            background: hsl(227, 16%, 55%);
+        }
+
+        footer {
+            background-color: #0f172a;
+            color: #f1f5f9;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+        }
+
+        footer h3 {
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        footer p {
+           margin: 8px 0;
+           font-size: 0.95rem;
+           color: #cbd5e1;
+        }
+
+        footer a {
+           color: #38bdf8;
+           text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;aaa
+       }
+
+       .whatsapp-btn {
+               display: inline-block;
+           background-color: #25D366;
+           color: white !important;
+           padding: 12px 24px;
+           border-radius: 8px;
+           font-weight: bold;
+           margin: 15px 0;
+           text-decoration: none !important;
+           transition: background 0.3s ease;
+       }
+
+        .whatsapp-btn:hover {
+           background-color: #1eb856;
+       }
